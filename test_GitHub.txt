@@ -1,0 +1,76 @@
+1) Ce este Git?
+Git este un sistem de control al versiunilor. El permite urmarirea mai multor revizuiri ale fisierelor si directoarelor  
+care apartin proiectelor software care sunt dezvoltate ( prin repozitarea lor pe un site/aplicatie comuna).
+
+2) Ce este un sistem de control al versiunilor?
+Controlul versiunilor este un sistem care înregistrează schimbările dintr-un fișier sau o mulțime de fișiere de-a lungul 
+timpului astfel încât putem reveni la anumite versiuni mai târziu.
+
+3) Cine a creat Git?
+Git a fost creat de Linus Torvalds in 2005
+
+4) Ce limba este utilizata in Git?
+In git utilizam limbajul de programare - C.
+
+
+5) Care sunt avantajele principale ale utilizarii Git?
+Avantajele principale ale utilizarii Git-ului sunt site-urile/platformele user-friendly care ne permit sa intelegem usor limbajul,
+dar si posibilitatea de lucru in grup.
+
+6) Scrieti comanda de initializare a unui repozitoriu in Git.
+git init
+
+7) Ce este un director Git?
+Directorul Git este locul în care Git stochează metadatele și baza de date obiect pentru proiectul dvs. 
+Aceasta este cea mai importantă parte a Git și este ceea ce este copiat atunci când clonați un depozit de pe alt computer.
+
+8) Ce se intampla daca directorul Git este sters?
+Dacă directorul .git / este șters, atunci veți pierde istoricul proiectului dvs. Depozitul nu va mai fi sub control.
+
+9) Cum se scrie un mesaj de commit in Git?
+git commit -m "mesaj"
+
+10) Ce este depozitul Git gol? Care este diferenta dintre un depozit Git standart (care are informatei in el)?
+Depozitul Git gol contine doar dosarul ascuns .git ce contine subdosarele objects (unde sevor pastra obiectele Git), 
+refs/heads (pentru stocarea referintelor).
+
+11) Mentionati servicii de gazduire a depozitelor Git (minim 3).
+AWS CodeCommit.
+Bitbucket Cloud.
+Bitbucket Server.
+GitHub.
+GitLab.
+
+12) Denumiti cateva operatiuni de baza in Git.
+
+1) git clone URL;
+2) type nul > "nume fisier".(nume extensie);
+3) git commit -m "mesaj";
+4) git pull;
+5) git push.
+
+13) Ce este un conflict Git si cum il rezolvi?
+Un conflict Git este o eroare care apare atunci cand mai multi utilizatori au realizat modificari in aceleasi fisiere din proiect.
+El se rezolva prin comanda git pull.
+
+14) Prin 2 comenzi spune-ti-i instrumentului Git numele si emailul autorului.
+git config --global user.email "email@gmail.com"
+git config --global user.name "Psenicinii Valerian"
+
+15) La ce folosim git stash?
+git stash reprezinta crearea unei arhive locale pentru un set de modificari (ascundem file-urile).
+
+16) La ce foloseste comanda git clone?
+Comanda git clone se foloseste pentru a clona (copia) repozitoriul de pe server pe local.
+
+17) Cand se utilizeaza comanda git config?
+Comanda git config se foloseste pentru a insera credentialele utilizatorului.
+
+18) Care este comanda de stergere a unui branch?
+git branch -d/git branch -D;
+
+19) Care este comanda de creare a unui branch?
+git branch NumeBranch.
+
+20) Care este comanda de creare si trecere automata ape un branch?
+git checkout -b NumeBranch.
